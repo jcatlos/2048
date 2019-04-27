@@ -1,0 +1,40 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  padding-top: 50px;
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  background: #f80c12;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li{
+  margin-left: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#name{
+  font-size: 30px; 
+}
+
+#errors{
+  margin: 10px;
+}
+
+canvas { 
+  margin: 10px;
+}

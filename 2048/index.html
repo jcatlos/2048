@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2048</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:medium" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- Vrchna lista -->
+    <ul id="topBar">
+      <li id="name">2048</li>
+      <li><label for="widthField">Width: </label><input id="widthInput" type="text"></li>
+      <li><label for="heightField">Height: </label><input id="heightInput" type="text"></li>
+      <li><button id="startButton">Start Game</button></li>
+      <li><label>Score:</label></li>
+      <li><label id="score"></label></li>
+    </ul>
+    <button id="rng">Wish me luck!</button>
+    <!-- Sem sa vykresluje herna plocha -->
+    <canvas id="canvas" width="0" height="0"></canvas>
+    <!-- Sem sa vypisuju spravy z funkcie print -->
+    <div id="errors"> 
+      <h5>Log:</h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
